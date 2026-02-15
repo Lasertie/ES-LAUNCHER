@@ -237,7 +237,7 @@ class Home {
             },
 
             JVM_ARGS:  options.jvm_args ? options.jvm_args : [],
-            GAME_ARGS: options.game_args ? options.game_args : [],
+            GAME_ARGS: ['--server "mc.lespritcout.fr:25765"'],//options.game_args ? options.game_args : ['--demo'],
 
             screen: {
                 width: configClient.game_config.screen_size.width,
