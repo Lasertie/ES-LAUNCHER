@@ -319,12 +319,13 @@ class Home {
         launch.on('error', err => {
             let popupError = new popup()
 
+            console.error(err);
             popupError.openPopup({
                 title: 'Erreur',
                 content: err.error,
                 color: 'red',
                 options: true
-            })
+            })  
 
             if (configClient.launcher_config.closeLauncher == 'close-launcher') {
                 ipcRenderer.send("main-window-show")

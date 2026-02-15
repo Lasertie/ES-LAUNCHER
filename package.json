@@ -1,7 +1,7 @@
 {
     "name": "ES-Launcher",
     "preductname": "ES Launcher",
-    "version": "2.2.2",
+    "version": "2.2.3",
     "description": "Launcher Mincraft pour le serveur Selvania",
     "main": "src/app.js",
     "author": {
