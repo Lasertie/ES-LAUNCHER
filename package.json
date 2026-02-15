@@ -1,5 +1,5 @@
 {
-    "name": "ES-Launcher",
+    "name": "ESLauncher",
     "preductname": "ES Launcher",
     "version": "2.2.3",
     "description": "Launcher Mincraft pour le serveur Selvania",
@@ -30,7 +30,7 @@
     },
     "devDependencies": {
         "cross-env": "^10.1.0",
-        "electron": "^40.0.0",
+        "electron": "^40.4.1",
         "electron-builder": "^26.0.12",
         "javascript-obfuscator": "^5.1.0",
         "jimp": "^1.6.0",
