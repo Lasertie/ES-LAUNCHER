@@ -11,7 +11,7 @@
     },
     "url": "http://mc-api.lespritscout.fr",
     "scripts": {
-        "start": "cross-env-shell NODE_ENV=dev electron .",
+        "start": "cross-env-shell NODE_ENV=dev electron . --force-device-scale-factor=1 --disable-gpu --enable-features=UseOzonePlatform --ozone-platform=x11",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
         "icon": "node build.js --icon=https://lespritscout.fr/Icone.png"
