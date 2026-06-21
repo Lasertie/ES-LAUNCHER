@@ -1,10 +1,11 @@
 {
     "name": "ESLauncher",
     "preductname": "ES Launcher",
-    "version": "2.2.6",
+    "version": "2.3.1",
     "description": "Launcher Mincraft pour le serveur Selvania",
     "main": "src/app.js",
     "author": {
+        
         "name": "luuxis, Lasertie Zyglonk, Inc.",
         "email": "contact@luuxis.fr, zyglonk@proton.me",
         "url": "https://github.com/luuxis"
@@ -36,7 +37,7 @@
         "jimp": "^1.6.0",
         "nodemon": "^3.1.11",
         "png2icons": "^2.0.1"
-    },
+    },      
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Lasertie/ES-LAUNCHER.git"
